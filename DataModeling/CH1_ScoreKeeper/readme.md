@@ -35,3 +35,23 @@ Grid {
 
 ## 1-2. Add functionality with Swift Testing
 https://developer.apple.com/tutorials/develop-in-swift/add-functionality-with-swift-testing
+
+* Unit Test: 작성한 메소드, 함수의 기능이 올바르게 작동하는지 확인하기 위해 사용
+```swift
+import Testing
+@testable import ScoreKeeper
+
+struct ScoreKeeperTests {
+
+@Test("Highest score wins")
+    func highestScoreWins() { ...
+        #expect(winners == [Player(name: "Zen", score: 4)])
+    }
+```
+* mutate: 변화시키다. 특정 메서드 내에서 프로퍼티를 수정해야할 때 사용 'mutating func resetScores(to newValue: Int)'
+    * 메서드(method): struct나 class, enum 안에서 선언된 함수. 밖에 있으면 그냥 함수.
+* @Previewable: 프리뷰 내에서 @State 선언
+```
+#Preview {
+    @Previewable @State var
+```

@@ -13,7 +13,6 @@ struct FriendList: View {
     @Environment(\.modelContext) private var context
     @State private var newFriend: Friend?
     
-    
     var body: some View {
         NavigationSplitView {
             List {

@@ -1,53 +1,58 @@
-//
-//  MovieList.swift
-//  FriendsFavoriteMovies
-//
-//  Created by 강서현 on 4/12/26.
-//
-
 import SwiftUI
 import SwiftData
 
 struct MovieList: View {
-    @Query(sort: \Movie.title) private var movies: [Movie]
+    @Query private var movies: [Movie]
     @Environment(\.modelContext) private var context
     @State private var newMovie: Movie?
     
-    var body: some View {
-        NavigationSplitView{
-            List {
-                ForEach(movies) { movie in
-                    NavigationLink(movie.title) {
-                        MovieDetail(movie: movie, isNew: true)
-                    }
-//                    .navigationTitle("Movie")
-//                    .navigationBarTitleDisplayMode(.inline)
-                }
-                .onDelete(perform: deleteMovies(indexes:))
-                // 스와이프 해서 삭제
-            }
-            .navigationTitle("Movies")
-            .toolbar {
-                ToolbarItem{
-                    Button("Add movie", systemImage: "plus", action: addMovie)
-                }
-                ToolbarItem(placement: .topBarTrailing){
-                    EditButton()
-                    // 오 이거 좋다
-                }
-            }
-            .sheet(item: $newMovie) { movie in
-                NavigationStack{
-                    MovieDetail(movie: movie, isNew: true)
-                }
-                .interactiveDismissDisabled()
-            }
-            
-        } detail : {
-            Text("Select a movie")
-                .navigationTitle("Movie")
-                .navigationBarTitleDisplayMode(.inline)
+    init(titleFilter: String = ""){
+        // 쿼리를 직접 생성하는 초기화자 선언
+        let predicate = #Predicate<Movie> { movie in
+            titleFilter.isEmpty || movie.title.localizedStandardContains(titleFilter)
+            // || : or, localizedStandardContains: 대소문자 무시, 악센트 문자(스페인)까지 처리
+            // 필터가 비어이있거나, titleFilter의 텍스트가 포함되어 있는 경우 영화를 포함해라
         }
+        
+        _movies = Query(filter: predicate, sort: \Movie.title)
+        //언더바 왜 쓰지
+    }
+    
+    var body: some View {
+        Group{
+            if !movies.isEmpty {
+                List {
+                    ForEach(movies) { movie in
+                        NavigationLink(movie.title) {
+                            MovieDetail(movie: movie)
+                        }
+                    }
+                    .onDelete(perform: deleteMovies(indexes:))
+                }
+            } else {
+                ContentUnavailableView("Add Movies", systemImage: "film.stack")
+            }
+        }
+        .navigationTitle("Movies")
+        .navigationBarTitleDisplayMode(.large)
+        .toolbar {
+            ToolbarItem {
+                Button("Add movie", systemImage: "plus", action: addMovie)
+            }
+            ToolbarItem(placement: .topBarTrailing) {
+                EditButton()
+            }
+        }
+        .sheet(item: $newMovie) { movie in
+            NavigationStack {
+                MovieDetail(movie: movie, isNew: true)
+            }
+            .interactiveDismissDisabled()
+        }
+        //detail: {
+        //            Text("Select a movie")
+        //                .navigationTitle("Movie")
+        //        }
     }
     
     private func addMovie() {
@@ -56,15 +61,23 @@ struct MovieList: View {
         self.newMovie = newMovie
     }
     
-    private func deleteMovies(indexes: IndexSet){
+    private func deleteMovies(indexes: IndexSet) {
         for index in indexes {
             context.delete(movies[index])
         }
     }
-    
 }
 
 #Preview {
-    MovieList()
-        .modelContainer(SampleData.shared.modelContainer)
+    NavigationStack{
+        MovieList()
+            .modelContainer(SampleData.shared.modelContainer)
+    }
+}
+
+#Preview("Empty List") {
+    NavigationStack{
+        MovieList()
+            .modelContainer(for: Movie.self, inMemory: true)
+    }
 }

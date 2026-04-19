@@ -1,5 +1,6 @@
 ## [Data Modeling] CH5. Views and data storage
 ### Preview
+..
 
 ### 5-1. Collect, model, and store data
 ### 폴더 정리
@@ -105,13 +106,10 @@ isShowingCancleConfirmation = true
 imageData = try? await newImage.loadTransferable(type: Data.self)
 ```
 
-1. **Optional이 있을 때 flatMap**
+2. **Optional이 있을 때 flatMap**
     
     Transforms the value if the value is non-optional.
     
     `flatMap` transforms the value inside an `Optional` and flattens nested `Optional` values.
     
-2. **View를 body 밖에서 만들면 읽기 쉽고 좋다.**
-git commit -m "Remove old GratefulMoments files"
-git pull origin main --rebase
-git push origin main
+3. **View를 body 밖에서 만들면 읽기 쉽고 좋다.**

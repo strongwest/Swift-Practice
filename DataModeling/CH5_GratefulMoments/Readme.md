@@ -1,9 +1,9 @@
-## [App Development] 10. Views and data storage / 11. User experience features
+# [App Development] 10. Views and data storage / 11. User experience features
 ### Preview
 <p><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/5-1.png?raw=true" width="15%" height="auto" /> <img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/5-2.png?raw=true" width="15%" height="auto" /><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/5-3.png?raw=true" width="15%" height="auto" /><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/5-4.png?raw=true" width="15%" height="auto" /><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/5-5.png?raw=true" width="15%" height="auto" /></p>
 
 
-## 10-1. Collect, model, and store data / 10-2. Use a Custom Layout View
+## 10-1. Collect, model, and store data
 ### 폴더 정리
 
 - Custom Views: 복잡한/특정한 UI
@@ -96,7 +96,7 @@ isShowingCancleConfirmation = true
                         }
 ```
 
-### 확인문제
+### <확인문제>
 
 1. **loadTransferable**
     
@@ -117,7 +117,7 @@ imageData = try? await newImage.loadTransferable(type: Data.self)
     
 4. **View를 body 밖에서 만들면 읽기 쉽고 좋다.**
 
-## 11-1. Create an algorithm for badges
+## 10-2. Use a Custom Layout View
 ### 모달 띄우기
 
 ```swift
@@ -182,7 +182,7 @@ ToolbarItem(placement: .primaryAction) {
           
 ```
 
----
+### 11-1. Create an algorithm for badges 
 
 ### enum과 switch
 

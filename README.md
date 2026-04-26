@@ -24,16 +24,16 @@ Apple's official tutorials designed for anyone new to building apps for Apple pl
 ### Data Modeling
 | Chapter | Topic | Tutorial | Code |
 |---------|-------|----------|------|
-| 6 | Custom types and Swift Testing | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-data-modeling) | [ScoreKeeper](https://github.com/strongwest/Swift-Practice/tree/main/DataModeling/CH1_ScoreKeeper) |
-| 7 | Models and persistence | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/save-data) | [Birthdays](https://github.com/strongwest/Swift-Practice/tree/main/DataModeling/CH2_Birthdays) |
-| 8 | Navigation, editing, and relationships | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/navigate-sample-data) | [FriendsFavoriteMovies](https://github.com/strongwest/Swift-Practice/tree/main/DataModeling/CH3_FriendsFavoriteMovies) |
-| 9 | Observation and shareable data models | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/complete-a-game-with-logic) | |
+| 6 | Custom types and Swift Testing | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-data-modeling) | [ScoreKeeper](https://github.com/strongwest/Swift-Practice/tree/main/2-DataModeling/6.%20ScoreKeeper) |
+| 7 | Models and persistence | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/save-data) | [Birthdays](https://github.com/strongwest/Swift-Practice/tree/main/2-DataModeling/7.%20Birthdays) |
+| 8 | Navigation, editing, and relationships | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/navigate-sample-data) | [FriendsFavoriteMovies](https://github.com/strongwest/Swift-Practice/tree/main/2-DataModeling/8.%20FriendsFavoriteMovies) |
+| 9 | Observation and shareable data models | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/complete-a-game-with-logic) | [Alphabetizer](https://github.com/strongwest/Swift-Practice/tree/main/2-DataModeling/9.%20Alphabetizer)|
 
 ### App Development
 | Chapter | Topic | Tutorial | Code |
 |---------|-------|----------|------|
-| 10 | Views and data storage | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-app-development) | |
-| 11 | User experience features | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/create-an-algorithm-for-badges) | |
+| 10 | Views and data storage | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-app-development) | [Grateful Moments](https://github.com/strongwest/Swift-Practice/blob/main/3-AppDevelopment/Readme.md) |
+| 11 | User experience features | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/create-an-algorithm-for-badges) | [Grateful Moments](https://github.com/strongwest/Swift-Practice/blob/main/3-AppDevelopment/Readme.md) |
 | 12 | App refinement | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/add-inclusive-features) | |
 
 ### Machine Learning and AI

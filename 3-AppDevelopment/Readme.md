@@ -73,7 +73,7 @@ Import SwiftData + @Model: 타입을 저장하고 조회. 초기화자 필요
 
 </aside>
 
-### 다시보기
+### ❗️다시보기(이해못함)❗️
 
 Marking the `DataContainer` class with `@MainActor` ensures that any interactions with the container from your views happen on the main thread, which is required for UI updates.
 

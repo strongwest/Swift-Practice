@@ -1,18 +1,8 @@
-## [Data Modeling] CH3. Navigation, editing, and relationships
+## [Data Modeling] 8. Navigation, editing, and relationships
 
 ### Preview
-**3-1. Navigate sample data, 3-2. Create, update, and delete data**
-<p><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-1.png?raw=true" width="20%" height="auto" /> <img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-2.png?raw=true" width="20%" height="auto" /><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-3.png?raw=true" width="20%" height="auto" /><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-4.png?raw=true" width="20%" height="auto" /></p>
+**8-1. Navigate sample data, 8-2. Create, update, and delete data**
+<p><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/6e931e6a-31e8-4226-829c-a6bc444b431c" /><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/ba4bd6b4-d6bf-4c2a-ba65-6d1738305e13" /><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/b4e58535-57ef-4e64-bb19-06f9275c6572" /><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/89d52b59-4a80-4192-9039-304b53b1e7e6" /></p>
 
-**3-3. Work with relationships**
-<p><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-5.png?raw=true" width="20%" height="auto" /> <img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-6.png?raw=true" width="20%" height="auto" /><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-7.png?raw=true" width="20%" height="auto" /></p>
-
-### 3-1. Navigate sample data
-https://developer.apple.com/tutorials/develop-in-swift/navigate-sample-data
-
-### 3-2. Create, update, and delete data
-https://developer.apple.com/tutorials/develop-in-swift/create-update-and-delete-data
-
-### 3-3. Work with relationships
-https://developer.apple.com/tutorials/develop-in-swift/work-with-relationships
-
+**8-3. Work with relationships**
+<p><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/3a374927-5ad1-44df-ae28-5d077283b3cb" /><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/6a0a013c-3c5b-445a-b322-8227008a8a3e" /><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/89e6b28d-f10e-4476-a0e1-a8e8edc6b79d" /></p>

@@ -27,19 +27,19 @@ Apple's official tutorials designed for anyone new to building apps for Apple pl
 | 6 | Custom types and Swift Testing | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-data-modeling) | [ScoreKeeper](https://github.com/strongwest/Swift-Practice/tree/main/DataModeling/CH1_ScoreKeeper) |
 | 7 | Models and persistence | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/save-data) | [Birthdays](https://github.com/strongwest/Swift-Practice/tree/main/DataModeling/CH2_Birthdays) |
 | 8 | Navigation, editing, and relationships | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/navigate-sample-data) | [FriendsFavoriteMovies](https://github.com/strongwest/Swift-Practice/tree/main/DataModeling/CH3_FriendsFavoriteMovies) |
-| 9 | Observation and shareable data models | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/complete-a-game-with-logic) | |
+| 9 | Observation and shareable data models | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/complete-a-game-with-logic) | [Alphabetizer](https://github.com/strongwest/Swift-Practice/tree/main/2-Data%20Modeling/9.%20Alphabetizer) |
 
 ### App Development
 | Chapter | Topic | Tutorial | Code |
 |---------|-------|----------|------|
-| 10 | Views and data storage | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-app-development) | |
-| 11 | User experience features | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/create-an-algorithm-for-badges) | |
-| 12 | App refinement | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/add-inclusive-features) | |
+| 10 | Views and data storage | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-app-development) | [GratefulMoments](https://github.com/strongwest/Swift-Practice/tree/main/3-App%20Development/10-12.%20GratefulMoments) |
+| 11 | User experience features | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/create-an-algorithm-for-badges) | [GratefulMoments](https://github.com/strongwest/Swift-Practice/tree/main/3-App%20Development/10-12.%20GratefulMoments) |
+| 12 | App refinement | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/add-inclusive-features) | [GratefulMoments](https://github.com/strongwest/Swift-Practice/tree/main/3-App%20Development/13.%20GratefulMoments) |
 
 ### Machine Learning and AI
 | Chapter | Topic | Tutorial | Code |
 |---------|-------|----------|------|
-| 13 | Natural language | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-machine-learning-and-ai) | |
+| 13 | Natural language | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-machine-learning-and-ai) | [HikingSurvey](https://github.com/strongwest/Swift-Practice/tree/main/4-Machine%20Learning%20and%20AI/HikingSurvey)|
 | 14 | Recognize text in images | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/extract-text-from-images) | |
 | 15 | Model training with Create ML | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/train-a-core-ml-model) | |
 | 16 | Custom models with Core ML | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/custom-models-with-core-ml) | |

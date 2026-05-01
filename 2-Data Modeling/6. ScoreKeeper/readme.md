@@ -1,5 +1,5 @@
-# [Data Modeling] CH1. Custom types and Swift Testing
-## 1-1. Model data with custom types
+# [Data Modeling] 6. Custom types and Swift Testing
+## 6-1. Model data with custom types
 https://developer.apple.com/tutorials/develop-in-swift/model-data-with-custom-types
 
 * View 없는 Swift File로 새로운 데이터 타입 만들기(struct)
@@ -29,7 +29,7 @@ Grid {
 `Stepper("Score", value: $score, in: 0...20)`
 
 
-## 1-2. Add functionality with Swift Testing
+## 6-2. Add functionality with Swift Testing
 https://developer.apple.com/tutorials/develop-in-swift/add-functionality-with-swift-testing
 
 * Unit Test: 작성한 메소드, 함수의 기능이 올바르게 작동하는지 확인하기 위해 사용

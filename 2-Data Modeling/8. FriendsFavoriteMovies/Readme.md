@@ -1,4 +1,4 @@
-## [Data Modeling] CH3. Navigation, editing, and relationships
+## [Data Modeling] 8. Navigation, editing, and relationships
 
 ### Preview
 **3-1. Navigate sample data, 3-2. Create, update, and delete data**

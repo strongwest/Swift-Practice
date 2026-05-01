@@ -1,13 +1,14 @@
-# [Machine Learning and AI] 13. Natural language
+# [Machine Learning and AI] 13. Natural language: Analyze sentiment in text
 
 ### Preview
 
+<p><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/f1f2fbeb-d589-4c1d-8949-074c920a1fff" /><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/5b1bec5c-59e9-414a-8a78-5b1a6b80d93a" /></p>
 
-## 13-1. Analyze sentiment in text
+---
 
 ### NLTagger
 
-텍스트를 쪼개고 의미를 붙여주는 Swift 기본 NLP 도구 ****in Natural Language framework
+텍스트를 쪼개고 의미를 붙여주는 Swift 기본 NLP 도구 in Natural Language framework
 
 → 품사 분석 (명사, 동사 등), 개체 인식 (사람 이름, 장소), 언어 감지, 토큰 분리 (단어 쪼개기)
 

@@ -55,6 +55,7 @@ Text(moment.timestamp.formatted(
 
 locale 추가하여 로컬라이징 → 스페인 날짜 형식으로 바뀜
 
+---
 
 ## 12-2. Investigate and fix a bug
 

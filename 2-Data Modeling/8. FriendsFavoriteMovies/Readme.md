@@ -1,11 +1,10 @@
-## [Data Modeling] 8. Navigation, editing, and relationships
+# [Data Modeling] 8. Navigation, editing, and relationships
 
 ### Preview
-**8-1. Navigate sample data, 8-2. Create, update, and delete data**
-<p><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-1.png?raw=true" width="20%" height="auto" /> <img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-2.png?raw=true" width="20%" height="auto" /><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-3.png?raw=true" width="20%" height="auto" /><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-4.png?raw=true" width="20%" height="auto" /></p>
-
-**8-3. Work with relationships**
-<p><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-5.png?raw=true" width="20%" height="auto" /> <img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-6.png?raw=true" width="20%" height="auto" /><img src="https://github.com/strongwest/Swift-Practice/blob/main/DataModeling/Preview/3-7.png?raw=true" width="20%" height="auto" /></p>
+<p><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/9eccfc3e-ee06-4f6d-a06d-ee03ab032cb7" />
+<img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/c13e460d-8dbb-4efc-98bf-a42f0d882feb" />
+<img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/0fe32a2c-0b7a-4426-861c-d1284a962f6b" />
+<img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/d7e2c3c8-db8a-463c-a9d0-519857951ae0" /></p>
 
 ### 8-1. Navigate sample data
 https://developer.apple.com/tutorials/develop-in-swift/navigate-sample-data

@@ -1,4 +1,7 @@
 # [Data Modeling] 6. Custom types and Swift Testing
+### Preview
+<p><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/2c709117-1015-4496-9d8e-46d6bacdeaff" /><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/f1df86dc-ca99-4566-9968-cb066d7b3ba7" /><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/773ee37c-dbd6-45c3-9f2a-f0bc10eea68d" /></p>
+
 ## 6-1. Model data with custom types
 https://developer.apple.com/tutorials/develop-in-swift/model-data-with-custom-types
 

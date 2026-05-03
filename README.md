@@ -40,7 +40,7 @@ Apple's official tutorials designed for anyone new to building apps for Apple pl
 | Chapter | Topic | Tutorial | Code |
 |---------|-------|----------|------|
 | 13 | Natural language | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-machine-learning-and-ai) | [HikingSurvey](https://github.com/strongwest/Swift-Practice/tree/main/4-Machine%20Learning%20and%20AI/HikingSurvey)|
-| 14 | Recognize text in images | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/extract-text-from-images) | |
+| 14 | Recognize text in images | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/extract-text-from-images) | [SignDecoder](https://github.com/strongwest/Swift-Practice/blob/main/4-Machine%20Learning%20and%20AI/14.%20SignDecoder/Readme.md) |
 | 15 | Model training with Create ML | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/train-a-core-ml-model) | |
 | 16 | Custom models with Core ML | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/custom-models-with-core-ml) | |
 | 17 | New: Image generation with Image Playground | [Apple Docs](https://developer.apple.com/tutorials/develop-in-swift/utilize-image-generation-features) | |

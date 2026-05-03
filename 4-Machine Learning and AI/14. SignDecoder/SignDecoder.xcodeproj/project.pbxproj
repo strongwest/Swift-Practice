@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		573BF9912FA78E4800600BE6 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 573BF9902FA78E4800600BE6 /* Readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		573BF9902FA78E4800600BE6 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		57B33D782FA6352700C52EA2 /* SignDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		57B33D6F2FA6352700C52EA2 = {
 			isa = PBXGroup;
 			children = (
+				573BF9902FA78E4800600BE6 /* Readme.md */,
 				57B33D7A2FA6352700C52EA2 /* SignDecoder */,
 				57B33D792FA6352700C52EA2 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573BF9912FA78E4800600BE6 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

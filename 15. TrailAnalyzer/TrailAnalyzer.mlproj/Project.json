@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-05-03T14:46:02Z",
+        "event" : "projectCreated",
+        "id" : "94A5384E-EA65-4648-8150-D07F73C48174",
+        "subtitle" : "TrailAnalyzer",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "River",
+  "createdDate" : "2026-05-03T14:46:02Z",
+  "description" : "",
+  "id" : "46113F59-F24E-4594-ADF8-8A5838C6D81D",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-05-03T14:46:02Z",
+  "projectName" : "TrailAnalyzer",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "generalRegresor",
+  "title" : "Tabular Regression",
+  "version" : "1.1"
+}

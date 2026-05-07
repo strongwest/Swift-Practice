@@ -1,8 +1,16 @@
+# 16. Custom models with Core ML: Import models with Core ML
+
+### Preview
+
+<p><img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/8658476d-5f74-4cde-8306-1fd2af2029ec" />
+  <img width="20%" height="auto" alt="Image" src="https://github.com/user-attachments/assets/0f759daa-6ce7-4c3f-9859-cf86e7b8c7c2" /></p>
+
 ### Creating Swift types
 - 모델을 프로젝트에 추가하면 Xcode가 모델을 코드에서 사용할 수 있도록 자동 처리
 - 모델이 요구하는 입력값과 반환하는 출력값을 Swift 타입으로 자동 생성
 - 개발자가 직접 입출력 구조를 모두 만들지 않아도 모델 전용 프로그래밍 인터페이스를 통해 접근 가능
 - 생성된 인터페이스를 사용하여 앱 내부에서 모델에 데이터를 전달하고 예측 결과를 받을 수 있음
+
 -> 모델 파일 추가 시 Xcode가 입출력 타입과 사용 인터페이스를 자동 생성
 
 ### TrailField 제네릭 타입
@@ -18,4 +26,5 @@
 - 예측 결과 자체를 그대로 보여주는 것보다 사용자가 이해하고 활용할 수 있는 정보로 표시하는 것이 중요
 - 모델의 출력은 사용자의 판단이나 행동에 도움이 될 때 의미를 가짐
 - 따라서 화면에는 단순한 원시 결과가 아니라 사용자에게 유용한 형태로 가공된 데이터를 표시해야 함
+
 -> 모델 출력은 사용자의 의사결정에 도움이 되는 유용한 정보로 표시
